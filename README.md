@@ -6,7 +6,7 @@ PoC Administrative tool used for dumping all switch configs stored in Solarwinds
 ncmdump is a proof-of-concept tool originally part of a larger offensive framework for Solarwinds Orion. The tool allows you to automate the extraction of switch configuration files from all devices under management by NCM. 
 
 ## Usage
-
+```
 git clone https://github.com/0daysimpson/ncmdump 
 cd ./ncmdump
 go mod init
@@ -25,4 +25,4 @@ Usage of ./ncmdump:
         Connect using TLS
   -u string
         SW Orion server username (default "guest")
-
+```
